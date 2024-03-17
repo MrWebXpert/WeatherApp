@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: #222;
+
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    margin-top: 10rem;
+}
+
+.card {
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    max-width: 400px;
+    color: #fff;
+    border-radius: 20px;
+    padding: 55px 30px 40px;
+    text-align: center;
+    margin: auto;
+}
+
+.serachBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+
+}
+
+.serachBox input {
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 40px;
+    border-radius: 20px;
+    padding: 0 20px;
+    font-size: 17px;
+    font-weight: 500;
+    margin: auto;
+}
+
+.serachBox img {
+    width: 25px;
+    height: 30px;
+    position: absolute;
+    right: 10px;
+}
+
+.wetherData {
+    position: relative;
+}
+
+.weather-card {
+    display: none;
+}
+
+.temp {
+    font-size: 6em;
+    background: -webkit-linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 3rem;
+}
+
+.w-img img {
+    width: 160px;
+    height: 140px;
+    position: absolute;
+    bottom: -60px;
+    right: 0;
+    object-fit: contain;
+}
+
+.w-text {
+    position: absolute;
+    bottom: 2px;
+    left: 15px;
+    font-size: 20px;
+}
+
+.w-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+.w-city {
+    margin: 20px 0;
+    padding: 10px 0;
+}
+
+.city {
+    font-size: 50px;
+    font-weight: 800;
+
+}
+
+.w-humidity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    gap: 10px;
+}
+
+.w-humidity img {
+    width: 35px;
+}
+
+.data h3 {
+    font-size: 22px;
+    font-weight: 600;
+}
